@@ -52,7 +52,7 @@ const HomeScreen = ({navigation}) => {
           paddingHorizontal: 20,
           paddingTop: 30,
           flex: 1,
-          backgroundColor: 'white',
+          backgroundColor: '#e8e8e8',
         }}>
         <Text style={{fontSize: 23, fontWeight: '500', color: '#000'}}>
           Notes
@@ -76,7 +76,7 @@ const HomeScreen = ({navigation}) => {
               renderItem={renderItem}
               contentContainerStyle={{
                 gap: 15,
-                backgroundColor: 'white',
+                backgroundColor: '#e8e8e8',
                 paddingVertical: 20,
                 paddingBottom: 65,
               }}
@@ -128,6 +128,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     elevation: 4,
-    backgroundColor: '#ec2442',
+    backgroundColor: '#ff3554',
   },
 });

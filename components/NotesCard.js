@@ -13,10 +13,10 @@ export default function NotesCard({title, content, id, handleDelete}) {
   const navigation = useNavigation();
 
   return (
-    <Card style={{backgroundColor: '#6b7ac2'}}>
-      <Text style={{color: '#fff', fontSize: 18, padding: 15}}>{title}</Text>
+    <Card style={{backgroundColor: '#ffffff'}}>
+      <Text style={{color: '#000', fontSize: 18, padding: 15}}>{title}</Text>
       <Card.Content>
-        <Text variant="bodyMedium" style={{color: '#fff'}}>
+        <Text variant="bodyMedium" style={{color: '#6c6c6ce6'}}>
           {content.length > 100 ? content.slice(0, 100) + '...' : content}
         </Text>
       </Card.Content>
@@ -31,7 +31,7 @@ export default function NotesCard({title, content, id, handleDelete}) {
           <FA name="edit" color="black" size={20} />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => handleDelete(id)}>
-          <MaterialIcon name="delete" color="black" size={25} />
+          <MaterialIcon name="delete-outline" color="red" size={25} />
         </TouchableOpacity>
       </Card.Actions>
     </Card>
