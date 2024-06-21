@@ -39,4 +39,8 @@ npx react-native start
 
 ## Screenshots
 
-_Insert screenshots here if available_
+![Splash Screen](assets/splashscreen.jpeg)
+![Home Screen](assets/Homescreen.jpeg)
+![Preview Note Screen](assets/previewnote.jpeg)
+![Add Note Screen](assets/addnote.jpeg)
+![Edit Note Screen](assets/editnote.jpeg)
